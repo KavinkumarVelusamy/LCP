@@ -14,7 +14,7 @@
 module.exports = {
   // An array of folders (excluding subfolders) where your tests are located;
   // if this is not specified, the test source must be passed as the second argument to the test runner.
-  src_folders: ['test','nightwatch/examples'],
+  src_folders: ['fileUpload.js'],
 
   // See https://nightwatchjs.org/guide/concepts/page-object-model.html
   page_objects_path: ['nightwatch/page-objects'],
@@ -57,18 +57,18 @@ module.exports = {
         server_path: ''
       },
       
-      test_runner: {
-        // set mocha as the runner
-        // For more info on using Mocha with Nightwatch, visit:
-        // https://nightwatchjs.org/guide/writing-tests/using-mocha.html
-        type: 'mocha',
+      // test_runner: {
+      //   // set mocha as the runner
+      //   // For more info on using Mocha with Nightwatch, visit:
+      //   // https://nightwatchjs.org/guide/writing-tests/using-mocha.html
+      //   type: 'mocha',
 
-        // define mocha specific options
-        options : {
-          ui: 'bdd',
-          reporter: 'list'
-        }
-      }
+      //   // define mocha specific options
+      //   options : {
+      //     ui: 'bdd',
+      //     reporter: 'list'
+      //   }
+      // }
     },
     
     chrome: {
