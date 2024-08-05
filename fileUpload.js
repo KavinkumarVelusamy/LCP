@@ -294,7 +294,7 @@ function normalizeData(data) {
 module.exports = {
   'jacana': function (browser) {
     // Path to your Excel file and the sheet name
-    // const filePath = path.resolve(__dirname, 'C:/Users/User/Desktop/jacana.xlsx');
+    const filePath = path.resolve(__dirname, 'C:/Users/User/Desktop/jacana.xlsx');
     const sheetName = 'Sheet3';
 
     // Read data from Excel
