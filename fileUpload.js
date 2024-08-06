@@ -1,4 +1,3 @@
-/////////////////////////////////////////////--multiple row--///////////////////////////////////////////////////////////////////////////////////////////////////////
 const xlsx = require('xlsx');
 const path = require('path');
 
@@ -43,7 +42,7 @@ function normalizeData(data) {
 }
 
 module.exports = {
-  'jacana': function (browser) {
+  'Test1': function (browser) {
     // Path to your Excel file and the sheet name
     const filePath = path.resolve(__dirname, 'C:/Users/User/Desktop/jacana.xlsx');
     const sheetName = 'Sheet3';
