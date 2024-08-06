@@ -49,7 +49,10 @@ module.exports = {
       },
 
       desiredCapabilities: {
-        browserName: 'chrome'
+        browserName: 'chrome',
+        chromeOptions: {
+          args: ['--headless', '--no-sandbox', '--disable-dev-shm-usage', '--window-size=1920,1080']
+      }
       },
       
       webdriver: {
